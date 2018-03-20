@@ -1,0 +1,22 @@
+# Node modules
+node_modules
+
+# Environment variables, never commit this file
+.env
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Compiled Assets
+public/assets
+public/scripts
+public/*.json

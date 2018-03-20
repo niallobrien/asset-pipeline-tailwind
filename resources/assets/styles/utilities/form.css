@@ -1,0 +1,9 @@
+/**
+ * Add any custom utilities you need that don't come out of the box with Tailwind.
+ */
+
+.outline-none {
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
+}

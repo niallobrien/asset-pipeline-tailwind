@@ -1,0 +1,12 @@
+.badge {
+  top: -0.25rem;
+  right: -0.15rem;
+}
+
+@media(min-width: 576px) {
+  .badge {
+    top: auto;
+    bottom: -0.5rem;
+    right: -0.5rem;
+  }
+}
