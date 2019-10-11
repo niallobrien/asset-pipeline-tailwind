@@ -30,7 +30,7 @@ app.use((req, res, next) => {
 })
 ```
 
-Then add `:mix(css) '/styles/app.css'` within the `head` section of your layout file and at the bottom of the `body` section add:
+Then add `:mix(css) '/styles/app.css'` within the `head` section of your layout file, and at the bottom of the `body` section add:
 ```
 :mix(js) '/scripts/manifest.js'
 :mix(js) '/scripts/vendor.js'
@@ -38,7 +38,7 @@ Then add `:mix(css) '/styles/app.css'` within the `head` section of your layout 
 ```
 
 ### Edge
-If you're using Edge with AdonisJS, in `start/hooks.js` (create it if it doesn't exist) add:
+If you are using Edge with AdonisJS, in `start/hooks.js` (create it if it doesn't exist) add:
 ```
 const {hooks} = require('@adonisjs/ignitor')
 const path = require('path')
