@@ -55,7 +55,7 @@ hooks.after.providersBooted(() => {
 })
 ```
 
-Then add `<link rel="stylesheet" href="{{ mix('/assets/styles/app.css') }}">` within the `head` section of your layout file and at the bottom of the `body` section add:
+Then add `<link rel="stylesheet" href="{{ mix('/assets/styles/app.css') }}">` within the `head` section of your layout file. At the bottom of the `body` section add:
 ```
 {{-- Scripts --}}
 <script src="{{ mix('/assets/scripts/manifest.js') }}"></script>
