@@ -12,7 +12,7 @@ and move the files over.
 ## Required Middleware
 
 ### Pug
-If you're using Pug (formally Jade) with Express, you'll need to add the below middleware
+If you're using Pug (formally Jade) with Express, you will need to add the below middleware:
 ```
 // Middleware for Jade/Pug custom filter for use with Laravel Mix
 app.use((req, res, next) => {
