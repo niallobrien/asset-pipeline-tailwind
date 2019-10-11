@@ -73,6 +73,6 @@ You can run the following commands to utilise the asset pipeline.
 `npm run watch` will build the assets for the development environment and continue to watch the assets for further changes. When a change is detected, it will automatically rebuild the assets.
 
 `npm run production` will build the assets for the production environment. This will minify all assets and utilise filenames that facilitate cache-busting, ideal for a production environment.
-Unfortunately, PurgeCSS doesn't yet support Pug. See https://github.com/FullHuman/purgecss/issues/6
+Unfortunately, PurgeCSS doesn't yet support Pug. See https://github.com/FullHuman/purgecss/issues/6 for further information.
 
 *Note:* When adding to an existing project, make sure to copy the `scripts`, `dependencies` and `devDependencies` from `package.json` to your exisiting `package.json` file.
